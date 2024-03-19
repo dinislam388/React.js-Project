@@ -1,0 +1,69 @@
+.aboutBg {
+    background-color: black;
+    padding-top: 7rem;
+    max-width: 100%;
+    height: 130vh;
+}
+
+.AbHead {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.abImg img {
+    width: 23rem;
+    margin-right: 10rem;
+    /* border: 1px solid #fff; */
+    box-shadow: 0px 0px 5px rgb(196, 222, 234);
+    border-radius: 20px;
+    animation: 1.2s moveFromRight ease;
+}
+
+.abPara p {
+    color: #fff;
+    width: 70%;
+    margin-left: 6rem;
+    animation: 1.2s moveFromLeft ease;
+}
+
+@keyframes moveFromLeft {
+    from{
+        transform: translateX(-20rem);
+        opacity: 0; 
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1; 
+    }
+  }
+  
+  @keyframes moveFromRight {
+    from{
+        transform: translateX(20rem);
+        opacity: 0; 
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1; 
+    }
+  }
+  
+  @keyframes scaleFromCenter {
+    from{
+        scale: 0;
+        opacity: 0;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+  }
+  

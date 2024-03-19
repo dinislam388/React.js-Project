@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191A1C;;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .logo {
+    font-size: 38px;
+    font-weight: 700;
+    color: #00ff00;
+  }
+  
+  .navBar ul {
+    display: flex;
+    gap: 30px;
+    font-size:20px;
+  }
+  
+  .navBar {
+    color: #fff;
+    transition: all .3s ease;
+  }
+
+  .navBar a:hover {
+    color: #00ff00;
+  }
+
+  .active{
+    color: #00ff00;
+  }

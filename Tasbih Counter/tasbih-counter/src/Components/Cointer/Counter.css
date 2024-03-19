@@ -1,0 +1,45 @@
+.count {
+    font-size: 80px;
+    color: red;
+}
+.heading {
+    font-size: 50px;
+}
+.subhanallah {
+    padding: 20px 30px;
+    margin-right: 20px;
+    font-size: 35px;
+    background-color: #A6B8E2;
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+}  
+
+.allahuakbarBtn {
+    padding: 20px 30px;
+    margin-right: 20px;
+    font-size: 35px;
+    background: #A6B8E2;
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+}
+
+.alhamdulillahBtn {
+    padding: 20px 30px;
+    margin-right: 20px;
+    font-size: 35px;
+    background: #A6B8E2;
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,163,1) 100%); */
+
+}
+
+.resetBtn {
+    padding: 20px 30px;
+    margin-right: 20px;
+    font-size: 35px;
+    background-color: hsl(252, 53%, 69%);
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+}
+
+.resetBtn span {
+    font-size: 20px;
+    color: black;
+}

@@ -1,0 +1,86 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    height: 110vh;
+    max-width: 1440px;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    padding-top: 7rem;
+}
+
+.contactHeading {
+    color: #fff ;
+}
+
+.conatctImg {
+    width: 30%;
+}
+
+.inputFild input {
+    margin-top: 20px;
+    padding: 15px 10px 13px 10px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #000000;
+    /* border-bottom: 1px solid blue; */
+    outline: none;
+    font-size: 17px;
+    /* color: rgb(23, 23, 23); */
+    color: #fff;
+    width: 90%
+}
+
+.inputBorder {
+    /* border: 1px solid blue; */
+    background-color: rgb(32, 32, 32);
+    border: 1px solid white;
+    box-shadow: 0px 0px 25px 0px lightblue;
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+    height: 100%;
+    margin: auto;
+}
+
+.inputFild button{
+    background-color: #012120;
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    width: 90%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.inputFild button:hover {
+    color: #fff;
+    background-color: #023e3d;
+}
+
+@media(max-width: 900px) {
+    .inputBorder {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .inputBorder {
+        width: 90%;
+        height: 65%;
+    }
+}
+

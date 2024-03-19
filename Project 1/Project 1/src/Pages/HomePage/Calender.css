@@ -1,0 +1,71 @@
+.searchbox_wrapper{
+    margin: 0 auto;
+    width: 90%;
+    height: 6rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: .5rem;
+}
+
+label{
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--primarycolor);
+    padding: 0 12px;
+    border-right: 1px solid #575757;
+}
+
+.left_border{
+    border-left: 3px solid var(--primarycolor);
+}
+
+.searchbox_wrapper input{
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    font-family: var(--primaryfont);
+    font-size: .9rem;
+}
+
+.searchbox_wrapper button{
+    font-family: var(--primaryfont);
+}
+
+.calender_btn{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.calender_icon{
+    font-size: 1.5rem;
+    color: var(--primarycolor);
+    margin-right: 6px;
+}
+
+.calender_flex{
+    display: flex;
+    align-items: center;
+}
+
+.find_now_btn{
+    height: 88%;
+    width: 6.8rem;
+    border-radius: 0 12px 12px 0;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    background: var(--primarycolor);
+}
+
+.date_calender{
+    position: absolute;
+    top: 6rem;
+    right: 8.625rem;
+}

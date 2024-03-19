@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191A1C;;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .logo {
+    font-size: 38px;
+    font-weight: 700;
+    color: #EF718D;
+  }
+  
+  .navBar ul {
+    display: flex;
+    gap: 30px;
+    font-size:20px;
+  }
+  
+  .navBar ul li a {
+    color: #fff;
+    transition: all .3s ease;
+  }
+
+  .navBar ul a:hover {
+    color: #EF718D;
+  }
